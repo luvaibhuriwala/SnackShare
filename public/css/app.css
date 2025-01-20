@@ -1,0 +1,27 @@
+
+h1{
+font-size: 5rem;
+color: aqua;
+}
+.card {
+    margin-top: -30px;
+}
+#about .card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+}
+#about .card-title {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#about .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#about img {
+    padding: 20px;
+    width: 100%;
+    object-fit: cover;
+}

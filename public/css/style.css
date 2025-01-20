@@ -1,0 +1,76 @@
+/* public/css/style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+p{
+    text-align: center;
+    font-size: 1.3rem;
+    color: orange;
+}
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+a {
+    color: orangered;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+button {
+    background-color:rgb(207, 112, 3);
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:rgb(221, 33, 0);
+}
+
+li{
+    list-style-type: decimal;
+    color: #0056b3;
+    font-size: 1rem;
+}
+.logo-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
