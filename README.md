@@ -1,2 +1,1 @@
-# SnackShare
-Food Sharing System
+# Read Me File
